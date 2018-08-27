@@ -1,0 +1,82 @@
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+body{
+	background-color: #c5e5e3;
+}
+
+.menu-main li:first-child{
+	margin-left:250px;
+}
+.menu-main li {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom:15px;
+  color: #606060;
+}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+
+.menu-main li a{
+	text-decoration: none;
+}
+.menu-main li a:visited{
+	color: #606060;
+}
+
+form{
+	width: 300px;
+	padding:20px;
+	border:1px solid #707070;
+	border-radius:10% 20%;
+	background-color:#a3a7e4;
+	margin:0 auto;
+}
+.content{
+	margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+}
+form label{
+	width: 250px;
+	display:block;
+	font-size:18px;
+	margin:0 auto;
+	margin-bottom:15px;
+	text-align: center;
+}
+
+form input{
+	display: block;
+	width:250px;
+	margin:0 auto;
+	padding:10px;
+	margin-bottom:15px;
+}
+form input:focus{
+	outline:none;
+	box-shadow:0 0 5px 1px  rgba(255,0,0,0.7) ; 
+}
+
+.registration{
+	display:block;
+	width:150px;
+	margin:20px auto;
+	padding:15px;
+	font-size: 18px;
+}
